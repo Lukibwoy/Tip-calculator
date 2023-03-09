@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProGamers</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+<script src="https://kit.fontawesome.com/57dc44e17d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+<div class="splitter">
+   <img src="/img/logo.svg" alt="" class="logo">
+
+    <div class="bill-container">
+        <div class="input">
+            <label class="bill" for="cash">Bill</label>
+            <input type="number" class="cash" placeholder="$">
+            <label for="tips">Select Tip %</label>
+            <div class="tips">
+          <div class="tip tip-5">5%</div>
+          <div class="tip tip-10">10%</div>
+          <div class="tip tip-15">15%</div>
+          <div class="tip tip-25">25%</div>
+          <div class="tip tip-50">50%</div>
+          <div id="tip-custom"><input type="number" class="tip" placeholder="CUSTOM"></div>
+            </div>
+            <div class="people-text">
+                <label for="people">Number of People</label>
+                <div class="people-error">Can't be zero</div>
+            </div>
+            <input type="number" class="people" placeholder="">
+        </div>
+        <div class="output">
+            <div class="amount">
+            <span>Tip Amount <br><p>/ person</p></span>
+            <div class="amount-cash">$0.00</div>
+           </div>
+           <div class="total">
+            <span>Total<br><p>/ person</p></span>
+            <div class="total-cash">$0.00</div>
+        </div>
+        <button class="reset">Reset</button>
+    </div>
+</div>
+
+    </div>
+</div>
+
+
+
+    
+      </script>
+    <script src="js/slicksettings.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
